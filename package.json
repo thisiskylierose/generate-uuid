@@ -1,0 +1,26 @@
+{
+  "name": "generate-uuid",
+  "version": "1.0.0",
+  "description": "Simple function to generate a uuid or a guid",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisiskylierose/generate-uuid.git"
+  },
+  "keywords": [
+    "uuid",
+    "guid",
+    "random",
+    "number",
+    "generate"
+  ],
+  "author": "Kylie Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisiskylierose/generate-uuid/issues"
+  },
+  "homepage": "https://github.com/thisiskylierose/generate-uuid"
+}
