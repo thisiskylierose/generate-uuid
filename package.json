@@ -1,6 +1,6 @@
 {
   "name": "generate-uuid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple function to generate a uuid or a guid",
   "main": "src/index.js",
   "scripts": {
@@ -33,5 +33,8 @@
     "babel-eslint": "^5.0.0-beta4",
     "eslint": "^1.10.3",
     "rimraf": "^2.4.4"
+  },
+  "directories": {
+    "test": "test"
   }
 }
