@@ -4,7 +4,7 @@
   "description": "Simple function to generate a uuid or a guid",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/thisiskylierose/generate-uuid/issues"
   },
-  "homepage": "https://github.com/thisiskylierose/generate-uuid"
+  "homepage": "https://github.com/thisiskylierose/generate-uuid",
+  "dependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^5.0.0-beta4",
+    "standard": "^5.4.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
 }
