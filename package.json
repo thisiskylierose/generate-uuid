@@ -1,6 +1,6 @@
 {
   "name": "generate-uuid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple function to generate a uuid or a guid",
   "main": "dist/index.js",
   "scripts": {
