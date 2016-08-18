@@ -2,17 +2,6 @@
   "name": "generate-uuid",
   "version": "1.0.5",
   "description": "Simple function to generate a uuid or a guid",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "babel src --out-dir dist",
-    "clean": "rimraf ./dist",
-    "dist": "npm run clean && npm run build",
-    "test": "eslint ./src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thisiskylierose/generate-uuid.git"
-  },
   "keywords": [
     "uuid",
     "guid",
@@ -20,22 +9,32 @@
     "number",
     "generate"
   ],
-  "author": "Kylie Rose",
-  "license": "MIT",
+  "homepage": "https://github.com/thisiskylierose/generate-uuid",
   "bugs": {
     "url": "https://github.com/thisiskylierose/generate-uuid/issues"
   },
-  "homepage": "https://github.com/thisiskylierose/generate-uuid",
+  "license": "MIT",
+  "author": "Kylie Rose",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisiskylierose/generate-uuid.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "clean": "rimraf ./dist",
+    "dist": "npm run clean && npm run build",
+    "test": "eslint ./src"
+  },
   "dependencies": {
-    "babel": "^6.1.18",
-    "babel-cli": "^6.2.0",
-    "babel-core": "^6.2.1",
+    "babel-cli": "6.11.4",
+    "babel-core": "6.13.2",
     "babel-eslint": "^5.0.0-beta4",
     "eslint": "^1.10.3",
     "rimraf": "^2.4.4"
-  },
-  "directories": {
-    "test": "test"
   },
   "devDependencies": {}
 }
